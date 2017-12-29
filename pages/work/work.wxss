@@ -1,0 +1,62 @@
+page {
+  height: 100%;
+}
+
+.sazelogo-box {
+  flex-shrink: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+  height: 100rpx;
+}
+
+.sazelogo {
+  width: 250rpx;
+}
+
+.sazelogo-desc {
+  font-size: 25rpx;
+}
+
+.work-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+
+.work-desc-box {
+  padding: 0 40rpx;
+  font-size: 25rpx;
+}
+
+.work-desc {
+  font-size: 25rpx;
+}
+
+.work-contact-box {
+  padding: 0 40rpx;
+}
+
+.work-contact-prefix {
+  font-size: 25rpx;
+}
+
+.work-contact {
+  font-size: 25rpx;
+}
+
+.makecall {
+  margin-left: 30rpx;
+  padding: 0 10rpx;
+  font-size: 25rpx;
+  color: #fff;
+  background-color: #f00;
+  cursor: pointer;
+}

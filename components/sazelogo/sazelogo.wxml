@@ -1,0 +1,6 @@
+<view hidden="{{isShow === 'true' ? false : true}}" class="container">
+  <view class="sazetech-logo-box">
+    <text class="sazetech-logo-title">{{logoTitle}}</text>
+  </view>
+  <text class="sazetech-logo-remark">{{logoRemark}}</text>
+</view>

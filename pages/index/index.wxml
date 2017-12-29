@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="sazelogo-box" hidden="{{hiddenSazelogo}}">
+    <!-- <sazelogo is-show="true" bind:sazelogoready="sazelogoready"></sazelogo> -->
+    <image src="/images/logo.jpg" mode="widthFix" class="sazelogo" bindload="showSazeLogo"></image>
+    <text class="sazelogo-desc">西册科技 触手可及</text>
+  </view>
+  <video id="mpVideo" poster="{{poster}}" src="{{src}}" duration="{{duration}}" controls></video>
+  <view class="home-desc-box">
+    <text class="home-desc">小程序无需下载、安装、卸载，简单开发，完美体验，媲美APP。</text>
+  </view>
+  <scroll-view class='home-version-desc' scroll-y="true">
+    <view>2017.1 微信发布小程序</view>
+    <view>2017.3 微信开放附近小程序</view>
+    <view>2017.4 上线小程序达20,000,000</view>
+    <view>2017.6 小程序关联50个公众号</view>
+    <view>2017.9 公众号文章可关联小程序</view>
+    <view>2017.10 小程序可内置外链</view>
+    <view>......</view>
+  </scroll-view>
+</view>

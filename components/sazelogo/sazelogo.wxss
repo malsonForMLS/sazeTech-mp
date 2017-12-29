@@ -1,0 +1,32 @@
+/**sazelogo.wxss**/
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20rpx 0;
+  box-sizing: border-box;
+}
+
+.sazetech-logo-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f00;
+  padding: 0 20rpx 0 20rpx;
+}
+
+.sazetech-logo-title {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 60rpx;
+  font-weight: 800;
+  font-style: italic;
+  color: #fff;
+}
+
+.sazetech-logo-remark {
+  font-size: 25rpx;
+  margin-top: 10rpx;
+}

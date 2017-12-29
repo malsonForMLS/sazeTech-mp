@@ -1,0 +1,17 @@
+<view class='flexClass'>
+  <view class='aaaa'>
+    我是标题啦
+  </view>
+  <swiper class="bbbb" indicator-dots="true" >
+    <block >
+      <swiper-item>
+        <image src="http://imgsrc.baidu.com/imgad/pic/item/6d81800a19d8bc3e3bad2adf888ba61ea8d34579.jpg" class="slide-image" height="100%" mode="aspectFit"/>
+      </swiper-item>
+    </block>
+    <block>
+      <swiper-item>
+        <image src="http://imgsrc.baidu.com/imgad/pic/item/7c1ed21b0ef41bd5af9a14e85bda81cb38db3de4.jpg" class="slide-image" height="100%" mode="aspectFit"/>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>

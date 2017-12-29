@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/case/case",
+    "pages/work/work",
+    "pages/test/test"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": ""
+  },
+  "tabBar": {
+    "color": "#4e4e4e",
+    "selectedColor": "#f00",
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "position": "bottom",
+    "list": [
+      {
+        "iconPath": "images/tab-home-1.jpg",
+        "selectedIconPath": "images/tab-home-2.jpg",
+        "pagePath": "pages/index/index",
+        "text": ""
+      },
+      {
+        "iconPath": "images/tab-case-1.jpg",
+        "selectedIconPath": "images/tab-case-2.jpg",
+        "pagePath": "pages/case/case",
+        "text": ""
+      },
+      {
+        "iconPath": "images/tab-work-1.jpg",
+        "selectedIconPath": "images/tab-work-2.jpg",
+        "pagePath": "pages/work/work",
+        "text": ""
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

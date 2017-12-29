@@ -1,0 +1,35 @@
+<view class="container">
+  <view class="sazelogo-box" hidden="{{hiddenSazelogo}}">
+    <!-- <sazelogo is-show="true" bind:sazelogoready="sazelogoready"></sazelogo> -->
+    <image src="/images/logo.jpg" mode="widthFix" class="sazelogo" bindload="showSazeLogo"></image>
+    <text class="sazelogo-desc">西册科技 触手可及</text>
+  </view>
+  <view class='work-container'>
+    <view class="work-desc-box">
+      <view>SazeTech | 西册科技</view>
+      <view>坚持“定制开发”；</view>
+      <view>坚持深入一线客户，挖掘需求，梳理逻辑；</view>
+      <view>坚持“耐心沟通，快速反馈”的服务理念， 为企业品牌提供更个性、更实用的小程序方案。 目前服务案例遍布：酒店、餐饮、娱乐、医疗、传媒、共享空间、能源、畜牧等行业。
+      </view>
+    </view>
+    <view class="work-contact-box">
+      <view>
+        <text class="work-contact-prefix">公司：</text>
+        <text class="work-contact">{{workContact[0]}}</text>
+      </view>
+      <view>
+        <text class="work-contact-prefix">电话：</text>
+        <text class="work-contact">{{workContact[1]}}</text>
+        <text class="makecall" bindtap="makeCall">拨打</text>
+      </view>
+      <view>
+        <text class="work-contact-prefix">邮箱：</text>
+        <text class="work-contact">{{workContact[2]}}</text>
+      </view>
+      <view>
+        <text class="work-contact-prefix">地址：</text>
+        <text class="work-contact">{{workContact[3]}}</text>
+      </view>
+    </view>
+  </view>
+</view>
