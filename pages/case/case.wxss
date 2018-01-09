@@ -3,6 +3,7 @@ page {
 }
 
 .sazelogo-box {
+  margin: 125rpx 0;
   flex-shrink: 0;
   width: 100%;
   display: flex;
@@ -10,7 +11,6 @@ page {
   justify-content: flex-start;
   align-items: center;
   box-sizing: border-box;
-  height: 100rpx;
 }
 
 .sazelogo {
@@ -22,8 +22,9 @@ page {
 }
 
 .swiper-box {
-  width: 100%;
-  height: 750rpx;
+  flex-shrink: 0;
+  width: 90%;
+  height: 655rpx;
 }
 
 .swiper-image {
@@ -31,7 +32,8 @@ page {
 }
 
 .case-desc-box {
-  padding: 0 40rpx;
+  padding: 0 55rpx;
+  align-self: flex-start;
 }
 
 .case-desc {

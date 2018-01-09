@@ -3,6 +3,7 @@ page {
 }
 
 .sazelogo-box {
+  margin: 125rpx 0;
   flex-shrink: 0;
   width: 100%;
   display: flex;
@@ -10,7 +11,6 @@ page {
   justify-content: flex-start;
   align-items: center;
   box-sizing: border-box;
-  height: 100rpx;
 }
 
 .sazelogo {
@@ -27,12 +27,12 @@ page {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: space-around;
+  justify-content: space-between;
   box-sizing: border-box;
 }
 
 .work-desc-box {
-  padding: 0 40rpx;
+  padding: 0 55rpx;
   font-size: 25rpx;
 }
 
@@ -41,7 +41,7 @@ page {
 }
 
 .work-contact-box {
-  padding: 0 40rpx;
+  padding: 0 55rpx;
 }
 
 .work-contact-prefix {
@@ -53,10 +53,26 @@ page {
 }
 
 .makecall {
-  margin-left: 30rpx;
-  padding: 0 10rpx;
-  font-size: 25rpx;
+  margin-left: 32rpx;
+  padding: 0 7rpx;
+  font-size: 22rpx;
   color: #fff;
   background-color: #f00;
   cursor: pointer;
+}
+
+.logo-gray {
+  flex-shrink: 0;
+  margin-top: 110rpx;
+  width: 220rpx;
+}
+
+.letter-space{
+  letter-spacing:0rpx;
+  margin-top:12rpx
+}
+
+.phone-call{
+  width: 60rpx;
+  margin-left: 30rpx;
 }

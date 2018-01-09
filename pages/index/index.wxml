@@ -5,17 +5,22 @@
     <image src="/images/logo.jpg" mode="widthFix" class="sazelogo" bindload="showSazeLogo"></image>
     <text class="sazelogo-desc">西册科技 触手可及</text>
   </view>
-  <video id="mpVideo" poster="{{poster}}" src="{{src}}" duration="{{duration}}" controls></video>
+  <video id="mpVideo" objectFit="contain" poster="{{poster}}" src="{{src}}" duration="{{duration}}" controls></video>
   <view class="home-desc-box">
-    <text class="home-desc">小程序无需下载、安装、卸载，简单开发，完美体验，媲美APP。</text>
+    <text class="home-desc">小程序无需下载，快速开发，精准触达，完美体验，提高CVR。</text>
   </view>
-  <scroll-view class='home-version-desc' scroll-y="true">
-    <view>2017.1 微信发布小程序</view>
-    <view>2017.3 微信开放附近小程序</view>
-    <view>2017.4 上线小程序达20,000,000</view>
-    <view>2017.6 小程序关联50个公众号</view>
-    <view>2017.9 公众号文章可关联小程序</view>
-    <view>2017.10 小程序可内置外链</view>
-    <view>......</view>
-  </scroll-view>
+  <view class="home-version-desc">
+    <view class="letter-space">2017.12 小程序+直播</view>
+    <view class="letter-space">2017.11 小店小程序上线</view>
+    <view class="letter-space">2017.11 小程序直接打开网页</view>
+    <view class="letter-space">2017.10 小程序+多媒体</view>
+    <view class="letter-space">2017.09 小程序支付后关注公众号</view>
+    <view class="letter-space">2017.08 小程序关联50个公众号</view>
+    <view class="letter-space">2017.06 小程序间相互跳转</view>
+    <view class="letter-space">2017.05 微信开发[附近小程序]</view>
+    <view class="letter-space">2017.04 公众号文章插入小程序</view>
+    <view class="letter-space">2017.03 小程序发卡券</view>
+    <view class="letter-space">2017.02 公众号关联小程序</view>
+    <view class="letter-space">2017.01 微信发布小程序</view>
+  </view>
 </view>

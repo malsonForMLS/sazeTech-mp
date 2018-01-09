@@ -7,9 +7,12 @@
   <view class='work-container'>
     <view class="work-desc-box">
       <view>SazeTech | 西册科技</view>
-      <view>坚持“定制开发”；</view>
-      <view>坚持深入一线客户，挖掘需求，梳理逻辑；</view>
-      <view>坚持“耐心沟通，快速反馈”的服务理念， 为企业品牌提供更个性、更实用的小程序方案。 目前服务案例遍布：酒店、餐饮、娱乐、医疗、传媒、共享空间、能源、畜牧等行业。
+      <view class="letter-space">*</view>
+      <view class>设计，简洁至上；开发，精准至上</view>
+      <view class="letter-space">沟通，理解至上；合作，互赢至上</view>
+      <view class="letter-space">*</view>
+      <view class>做一家有趣、时尚的科技公司</view>
+      <view class="letter-space">让遇见我们的每一个人都有所改变、有所骄傲
       </view>
     </view>
     <view class="work-contact-box">
@@ -20,7 +23,8 @@
       <view>
         <text class="work-contact-prefix">电话：</text>
         <text class="work-contact">{{workContact[1]}}</text>
-        <text class="makecall" bindtap="makeCall">拨打</text>
+        <!-- <text class="makecall" bindtap="makeCall">拨打</text> -->
+        <image src="/images/phone-call.jpg" class="phone-call" mode="widthFix" bindtap="makeCall"/>
       </view>
       <view>
         <text class="work-contact-prefix">邮箱：</text>
@@ -32,4 +36,5 @@
       </view>
     </view>
   </view>
+  <image src="/images/logo-gray.jpg" class="logo-gray" mode="widthFix" />
 </view>
