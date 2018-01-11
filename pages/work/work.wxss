@@ -63,7 +63,7 @@ page {
 
 .logo-gray {
   flex-shrink: 0;
-  margin-top: 110rpx;
+  margin-top: 40rpx;
   width: 220rpx;
 }
 

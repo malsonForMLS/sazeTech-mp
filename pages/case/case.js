@@ -7,15 +7,13 @@ Page({
       duration: 300,
       circular: true,
       indicatorDots: true,
-      indicatorActiveColor: '#fff'
+      indicatorActiveColor: '#ccc'
     },
     imgUrls: [
-      'http://p1al5uegh.bkt.clouddn.com/a.jpg',
-      'http://p1al5uegh.bkt.clouddn.com/b.jpg'
+      'http://p1al5uegh.bkt.clouddn.com/c.jpg'
     ],
     caseDesc: '',
     caseDescList: [
-      '看几个小case...',
       '看几个小case...'
     ],
     hiddenSazelogo: true
